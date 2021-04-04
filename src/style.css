@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #FAFAFA;
+}
+
+.proyects-title, .contact-title, .aboutme-title{
+  margin: 2%;
+}
+.current-menu{
+  text-decoration: underline #EF406C;
+  font-weight: bold;
+  color: #EF406C;
+}
+
+/*------------------HOME----------------------*/
+.home, .aboutme, .proyects, .contact{
+  background-color: #141628;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+}
+a:link {
+  text-decoration: none;
+}
+a{
+  font-family: 20px;
+  margin: 24px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+article{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.presentation{
+  width: 680px;
+}
+h1{
+  font-size: 64px;
+  margin-top: 15%;
+}
+span{
+  color: #EF406C;
+}
+.home-description{
+  margin-top: 8%;
+  font-size: 18px;
+  width: 535px;
+}
+.home-button{
+  margin-top: 10%;
+}
+
+/*------------------PROYECTS----------------------*/
+.proyects-screen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+}
+.frontCard, .backCard {
+  position: absolute;
+  width: 480px;
+  height: 490px;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  background-color: #141628;
+  color: #FAFAFA;
+  box-shadow: 4px 4px 10px rgba(239, 64, 108, 0.8);
+}
+.flip-card {
+  background-color: transparent;
+  width: 480px;
+  height: 490px;
+  perspective: 1000px;
+  margin: 4%;
+}
+.flip-card-inner{
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+  
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.frontCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.name-frontcard{
+  font-weight: bold;
+  font-size: 24px;
+  color: #EF406C;
+  margin: 24px 14px;
+}
+.description-frontcard{
+  margin: 14px 14px;
+  font-size: 18px;
+  width: 380px;
+}
+.backCard {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name-backcard{
+  font-weight: bold;
+  font-size: 24px;
+  color: #EF406C;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.back-img{
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.backcard-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ver-pag-button, .ver-repo-button{
+  margin: 2%;
+}
+.backcard-description{
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 430px;
+}
+
+/*------------------CONTACT----------------------*/
+
+.contact-screen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-data{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 700px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.contact-bottom-img{
+  margin-top: 10%;
+}
+.data{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 350px;
+}
+.contact-img{
+  margin: 8px;
+}
+
+/*------------------ABOUT ME----------------------*/
+
+.aboutme-screen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.display-aboutme{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.aboutme-description{
+  width: 560px;
+  margin-top: 6%;
+  margin-left: 4%;
+  font-size: 20px;
+}
+.aboutme-subtitle{
+  font-size: 26px;
+  margin-left: 4%;
+  text-decoration: underline #EF406C;
+}
