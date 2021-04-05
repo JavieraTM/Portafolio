@@ -18,7 +18,7 @@ export const contact = () => {
         <section class="contact-data">
           <div class="data">
             <img class='contact-img' src="img/email.png" alt="" />
-            <p class="margin-contact">javieratm13@gmail.com</p>
+            <a href='mailto:javieratm13@gmail.com' class="margin-contact">javieratm13@gmail.com</a>
           </div>
           <div class="data">
             <img class='contact-img' src="img/linkedin.png" alt="" />
@@ -40,6 +40,5 @@ export const contact = () => {
     </div>
       `;
   divContact.innerHTML = viewContact;
-  
   return divContact;
 };
