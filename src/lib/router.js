@@ -1,7 +1,7 @@
 import { home } from './view/templateHome.js';
 import { aboutme } from './view/templateAboutMe.js';
 import { proyects } from './view/templateProyects.js';
-import { contact } from './view/templatecontact.js';
+import { contact } from './view/templateContact.js';
 
 const showTemplate = (hash) => {
   const containerRoot = document.getElementById('root');
