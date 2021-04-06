@@ -8,8 +8,8 @@ export const home = () => {
         <ul>
         <a href="" class='current-menu'>Inicio</a>
         <a href="#proyects">Proyectos</a>
-        <a href="#contact">Contacto</a>
         <a href="#aboutme">Sobre mi</a>
+        <a href="#contact">Contacto</a>
         </ul>
       </nav>
     </header>
@@ -34,6 +34,5 @@ export const home = () => {
   viewProyectsButton.addEventListener('click', () => {
     window.location.hash = 'proyects';
   });
-  
   return divHome;
 };

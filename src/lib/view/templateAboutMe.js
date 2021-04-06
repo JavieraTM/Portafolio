@@ -8,18 +8,15 @@ export const aboutme = () => {
       <ul>
         <a href="">Inicio</a>
         <a href="#proyects">Proyectos</a>
-        <a href="#contact">Contacto</a>
         <a href="#aboutme" class='current-menu'>Sobre mi</a>
+        <a href="#contact">Contacto</a>
       </ul>
     </nav>
   </header>
   <article class="aboutme-screen">
     <h2 class="aboutme-title">Conoce un poco <span>Sobre mi</span></h2>
     <section class="display-aboutme">
-      <div>
-        <img src="img/aboutme.png" alt="" />
-      </div>
-      <div>
+    <div>
         <h3 class="aboutme-subtitle">¿Quién soy?</h3>
         <p class="aboutme-description">
           Me llamo <span>Javiera Troncoso</span>, tengo 20 años y soy una apasionada por
@@ -34,11 +31,13 @@ export const aboutme = () => {
           cactus y las suculentas.
         </p>
       </div>
+      <div>
+        <img src="img/aboutme.png" alt="" />
+      </div>
     </section>
   </article>
 </div>
       `;
   divAboutMe.innerHTML = viewAboutMe;
-  
   return divAboutMe;
 };

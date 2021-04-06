@@ -20,7 +20,7 @@ const showTemplate = (hash) => {
     case '#contact':
       containerRoot.appendChild(contact());
       break;
-      default:
+    default:
       containerRoot.innerHTML = `
       <h2>No se han encontrado resultados:(</h2>
           `;

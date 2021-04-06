@@ -7,10 +7,10 @@ export const proyects = () => {
           <header>
             <nav>
               <ul>
-                <a href="">Inicio</a>
-                <a href="#proyects" class='current-menu'>Proyectos</a>
-                <a href="#contact">Contacto</a>
-                <a href="#aboutme">Sobre mi</a>
+              <a href="">Inicio</a>
+              <a href="#proyects" class='current-menu'>Proyectos</a>
+              <a href="#aboutme">Sobre mi</a>
+              <a href="#contact">Contacto</a>
               </ul>
             </nav>
           </header>
