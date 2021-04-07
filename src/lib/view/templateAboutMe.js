@@ -14,22 +14,26 @@ export const aboutme = () => {
     </nav>
   </header>
   <article class="aboutme-screen">
-    <h2 class="aboutme-title">Conoce un poco <span>Sobre mi</span></h2>
     <section class="display-aboutme">
-    <div>
-        <h3 class="aboutme-subtitle">¿Quién soy?</h3>
-        <p class="aboutme-description">
-          Me llamo <span>Javiera Troncoso</span>, tengo 20 años y soy una apasionada por
-          la programación y la tecnología, me encanta estar en constante
-          aprendizaje, probando cosas nuevas y comprendiendo el
-          funcionamiento de éstas. Disfruto jugando con el código,
-          intentando plasmar la idea del prototipo en la web y haciendo que
-          la experiencia del usuario sea única. Anteriormente trabajé en el
-          área de la gastronomía, y cocinar sigue siendo uno de mis
-          pasatiempos favoritos. Tambien me gusta mucho leer, ver series y
-          andar en bicicleta. Me encantan las plantas, en especial los
-          cactus y las suculentas.
-        </p>
+    <div class='aboutme-container'>
+      <h2 class="aboutme-title"><span>Sobre mi</span></h2>
+      <p class="aboutme-description">
+      Soy <span class='span-aboutme'>Javiera Troncoso</span>, desarrolladora front-end. 
+      </p>
+      <p class="aboutme-description">
+      Egresé del bootcamp de
+      Laboratoria, donde aprendí a programar páginas web en sólo <span class='span-aboutme'>6 meses</span>, siendo
+      éste el 2do mayor reto en mi vida, después de ser <span class='span-aboutme'>mamá</span>.
+      </p>
+      <p class="aboutme-description">
+      Me gusta estar en constante <span class='span-aboutme'>aprendizaje</span>, probando cosas nuevas y comprendiendo el
+      funcionamiento de éstas.
+      </p>
+      <p class="aboutme-description">
+        Anteriormente trabajé en el área de la gastronomía, y <span class='span-aboutme'>cocinar</span> sigue siendo uno de mis 
+        pasatiempos favoritos. También me gusta mucho leer, ir a la biblioteca, pasear en
+        bicicleta y ver series. Soy fanática del <span class='span-aboutme'>café</span> y de las plantitas.
+      </p>
       </div>
       <div>
         <img src="img/aboutme.png" alt="" />

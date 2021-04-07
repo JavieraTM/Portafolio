@@ -5,8 +5,12 @@
   color: #FAFAFA;
 }
 
-.proyects-title, .contact-title, .aboutme-title{
+.proyects-title, .contact-title{
   margin: 2%;
+  font-size: 28px;
+}
+.aboutme-title{
+  font-size: 28px;
 }
 .current-menu{
   text-decoration: underline #EF406C;
@@ -152,6 +156,35 @@ span{
   width: 430px;
 }
 
+/*------------------ABOUT ME----------------------*/
+
+.aboutme-screen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.display-aboutme{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.aboutme-description, .aboutme-name{
+  width: 560px;
+  margin-top: 6%;
+  font-size: 20px;
+}
+.aboutme-name{
+  font-size: 20px;
+}
+.aboutme-container{
+  margin-right: 6%;
+}
+.span-aboutme{
+  color:#a0a0ce;
+  font-weight: 900;
+}
+
 /*------------------CONTACT----------------------*/
 
 .contact-screen{
@@ -179,29 +212,4 @@ span{
 }
 .contact-img{
   margin: 8px;
-}
-
-/*------------------ABOUT ME----------------------*/
-
-.aboutme-screen{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.display-aboutme{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.aboutme-description{
-  width: 560px;
-  margin-top: 6%;
-  margin-left: 4%;
-  font-size: 20px;
-}
-.aboutme-subtitle{
-  font-size: 26px;
-  margin-left: 4%;
-  text-decoration: underline #EF406C;
 }

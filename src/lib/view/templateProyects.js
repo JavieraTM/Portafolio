@@ -37,8 +37,8 @@ export const proyects = () => {
                       buscar por nombre.
                     </p>
                     <div class='backcard-buttons'>
-                      <a href='https://javieratm.github.io/SCL015-data-lovers/src/index.html'><img class='ver-pag-button' type='button' src="img/ver-pagina-button.png" alt="" /></a>
-                      <a href='https://github.com/JavieraTM/SCL015-data-lovers'><img type='button' class='ver-repo-button' src="img/ver-repo-button.png" alt=""/></a>
+                      <a href='https://javieratm.github.io/SCL015-data-lovers/src/index.html' target="_blank"><img class='ver-pag-button' type='button' src="img/ver-pagina-button.png" alt="" /></a>
+                      <a href='https://github.com/JavieraTM/SCL015-data-lovers' target="_blank"><img type='button' class='ver-repo-button' src="img/ver-repo-button.png" alt=""/></a>
                     </div>
                   </div>
                 </div>
@@ -60,8 +60,8 @@ export const proyects = () => {
                     Una red social enfocada en la exploración urbana. En esta app podrás registrarte e iniciar sesión con tu cuenta de Google, o con tu correo electrónico, para interactuar con otros usuarios mediante publicaciones.
                     </p>
                     <div class='backcard-buttons'>
-                      <a href='https://javieratm.github.io/SCL015-social-network/src/index.html'><img class='ver-pag-button' type='button' src="img/ver-pagina-button.png" alt="" /></a>
-                      <a href='https://github.com/JavieraTM/SCL015-social-network'><img type='button' class='ver-repo-button' src="img/ver-repo-button.png" alt=""/></a>
+                      <a href='https://javieratm.github.io/SCL015-social-network/src/index.html' target="_blank"><img class='ver-pag-button' type='button' src="img/ver-pagina-button.png" alt="" /></a>
+                      <a href='https://github.com/JavieraTM/SCL015-social-network' target="_blank"><img type='button' class='ver-repo-button' src="img/ver-repo-button.png" alt=""/></a>
                     </div>
                   </div>
                 </div>

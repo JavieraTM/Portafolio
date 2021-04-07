@@ -31,10 +31,10 @@ export const changeRoute = (hash) => {
   if (hash === '#') {
     return showTemplate(hash);
   }
-  if (hash === '#aboutme') {
+  if (hash === '#proyects') {
     return showTemplate(hash);
   }
-  if (hash === '#proyects') {
+  if (hash === '#aboutme') {
     return showTemplate(hash);
   }
   if (hash === '#contact') {
