@@ -1,9 +1,9 @@
-// import { home } from './lib/view/templateHome.js';
-import { proyects } from './lib/view/templateProyects.js';
+import { home } from './lib/view/templateHome.js';
+// import { proyects } from './lib/view/templateProyects.js';
 import { changeRoute } from './lib/router.js';
 
 const init = () => {
-  document.getElementById('root').appendChild(proyects());
+  document.getElementById('root').appendChild(home());
   if ('onhashchange' in window) {
     window.onhashchange = () => {
       // console.log(1, window.location.hash);

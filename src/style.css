@@ -18,7 +18,6 @@
   color: #EF406C;
 }
 
-/*------------------HOME----------------------*/
 .home, .aboutme, .proyects, .contact{
   background-color: #141628;
   background-position: center;
@@ -31,42 +30,48 @@
   position: absolute;
   width: 100%;
 }
-a:link {
-  text-decoration: none;
-}
+
+/*------------------HOME----------------------*/
+
 a{
+  text-decoration: none;
   font-family: 20px;
-  margin: 24px;
+  margin: 20px;
 }
+
 ul{
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
 article{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .presentation{
-  width: 680px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
 h1{
   font-size: 64px;
-  margin-top: 15%;
 }
+
 span{
   color: #EF406C;
 }
+
 .home-description{
-  margin-top: 8%;
   font-size: 18px;
   width: 535px;
 }
+
 .home-button{
-  margin-top: 10%;
+  width: 30%;
 }
 
 /*------------------PROYECTS----------------------*/
@@ -79,27 +84,28 @@ span{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   width: 1300px;
 }
 .frontCard, .backCard {
   position: absolute;
   width: 480px;
-  height: 490px;
+    height: 490px;
   backface-visibility: hidden;
   border-radius: 16px;
   background-color: #141628;
   color: #FAFAFA;
   box-shadow: 4px 4px 10px rgba(239, 64, 108, 0.8);
 }
+
 .flip-card {
   background-color: transparent;
   width: 480px;
-  height: 490px;
+    height: 490px;
   perspective: 1000px;
-  margin: 4%;
 }
+
 .flip-card-inner{
   transition: transform 0.3s;
   transform-style: preserve-3d;
@@ -130,13 +136,12 @@ span{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .name-backcard{
   font-weight: bold;
   font-size: 24px;
   color: #EF406C;
-  margin-top: 24px;
-  margin-bottom: 20px;
 }
 .back-img{
   margin-top: 24px;
@@ -198,7 +203,7 @@ span{
   flex-wrap: wrap;
   width: 1500px;
   font-size: 18px;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .contact-bottom-img{
@@ -208,8 +213,122 @@ span{
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 350px;
 }
 .contact-img{
   margin: 8px;
+}
+
+@media (min-width: 300px) and (max-width: 1400px) and (orientation: portrait){
+
+  /*------------------HOME----------------------*/
+
+  a{
+    font-size: 14px;
+    margin: 4%;
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+  }
+
+  article{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    height: 95vh;
+  }
+
+  .presentation{
+    align-items: center;
+    height: 50vh;
+    width: 90vw;
+  }
+
+  h1{
+    font-size: 27px;
+  }
+
+  .home-description{
+    font-size: 18px;
+    width: 90vw;
+  }
+
+  .home-img{
+    width: 60%;
+  }
+
+  .home-button{
+    width: 50%;
+  }
+
+  /*------------------PROYECTS----------------------*/
+
+.flex-cards{
+  flex-direction: column;
+  width: 100vw;
+  height: 95vh;
+}
+
+.frontCard, .backCard {
+  width: 90vw;
+  height: 60vh;
+}
+
+.flip-card {
+  width: 90vw;
+  height: 60vh;
+  perspective: 1000px;
+}
+
+.frontCard {
+  text-align: left;
+}
+
+.description-frontcard{
+  width: 85vw;
+}
+
+.backCard {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name-backcard{
+  font-weight: bold;
+  font-size: 24px;
+  color: #EF406C;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.back-img{
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.backcard-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ver-pag-button, .ver-repo-button{
+  margin: 2%;
+}
+.backcard-description{
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }

@@ -6,10 +6,10 @@ export const home = () => {
     <header>
       <nav>
         <ul>
-        <a href="" class='current-menu'>Inicio</a>
-        <a href="#proyects">Proyectos</a>
-        <a href="#aboutme">Sobre mi</a>
-        <a href="#contact">Contacto</a>
+          <a href="" class='current-menu'>Inicio</a>
+          <a href="#proyects">Proyectos</a>
+          <a href="#aboutme">Sobre mi</a>
+          <a href="#contact">Contacto</a>
         </ul>
       </nav>
     </header>
@@ -21,8 +21,8 @@ export const home = () => {
         Quédate para conocer sobre mi trabajo.</p>
         <img href="#proyects" class='home-button' src="img/view-proyect-button.png" alt="" type='button' id='viewProyectsButton'>
       </section>
-      <section>
-        <img src='img/pic-portada.png'>
+      <section >
+        <img class='home-img' src='img/pic-portada.png'>
       </section>
     </article>
   </div>
